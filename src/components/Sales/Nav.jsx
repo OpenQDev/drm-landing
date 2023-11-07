@@ -103,6 +103,15 @@ const Subnav = () => {
           <a href="#" className="text-gray-900  text-sm font-normal">
             Community
           </a>
+          <div className="flex flex-col pt-5 space-y-2">
+            <button className="whitespace-nowrap border rounded-lg p-2 px-4 border-[#A6A6A6] font-medium text-xs">
+              Closed beta sign in
+            </button>
+            <button className="whitespace-nowrap bg-[#322EE9] p-2 px-4 text-white border rounded-lg font-medium text-xs">
+              Join waitlist
+            </button>
+          </div>
+          <div className="border-b border-gray-300 pt-5"></div>
         </div>
       )}
     </div>
