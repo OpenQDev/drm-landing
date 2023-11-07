@@ -18,7 +18,7 @@ const DevRelCore = () => {
           />
         </div>
         <div
-          className="absolute top-1/2 right-0 border border-gray-300 rounded-lg opacity-80"
+          className="hidden lg:block absolute top-1/2 right-0 border border-gray-300 rounded-lg opacity-80"
           style={{ transform: "translateX(30%) translateY(-25%)" }}
         >
           <Image
@@ -30,7 +30,7 @@ const DevRelCore = () => {
           />
         </div>
         <div
-          className="absolute top-1/2 right-0 rounded-lg"
+          className="hidden lg:block absolute top-1/2 right-0 rounded-lg"
           style={{ transform: "translateX(30%) translateY(-25%)" }}
         >
           <Image

@@ -16,7 +16,7 @@ const DRM = () => {
       <Nav />
       <div className="bg-bg-primary-color pb-96">
         <DevRelHero />
-        {/* <DevRelCore /> */}
+        <DevRelCore />
       </div>
     </main>
   );
