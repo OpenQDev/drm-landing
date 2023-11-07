@@ -6,7 +6,7 @@ const Subnav = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="px-4 md:px-16 lg:px-52 pt-2">
+    <div className="px-12 md:px-16 lg:px-52 pt-2">
       <div
         className={`flex flex-row justify-between md:justify-start items-center py-4`}
       >
