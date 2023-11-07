@@ -6,7 +6,7 @@ const Subnav = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="px-12 md:px-16 lg:px-52 pt-2">
+    <div className="px-5 md:px-16 lg:px-52 pt-2">
       <div
         className={`flex flex-row justify-between md:justify-start items-center py-4`}
       >
@@ -49,14 +49,14 @@ const Subnav = () => {
           </div>
         </div>
         <div className="flex flex-row hidden md:flex space-x-4">
-          <button className="whitespace-nowrap border rounded-lg p-2 px-4 border-[#A6A6A6] font-medium md:text-xs">
+          <button className="whitespace-nowrap border rounded-lg p-2 px-4 border-[#A6A6A6] font-medium md:text-xs lg:text-lg">
             Closed beta sign in
           </button>
-          <button className="whitespace-nowrap bg-[#322EE9] p-2 px-4 text-white border rounded-lg font-medium md:text-xs">
+          <button className="whitespace-nowrap bg-[#322EE9] p-2 px-4 text-white border rounded-lg font-medium md:text-xs lg:text-lg">
             Join waitlist
           </button>
         </div>
-        <div className="md:hidden self-end mb-2">
+        <div className="md:hidden self-end mb-1">
           <button onClick={() => setIsOpen(!isOpen)}>
             {isOpen ? (
               <svg
@@ -78,13 +78,13 @@ const Subnav = () => {
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
-                stroke-width="1.5"
+                strokeWidth="1.5"
                 stroke="currentColor"
                 className="w-5 h-5"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
                 />
               </svg>

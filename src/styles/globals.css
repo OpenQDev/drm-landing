@@ -11,3 +11,11 @@ body {
   color: rgb(var(--foreground-rgb));
   background: rgb(var(--background-rgb));
 }
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("/fonts/Gilroy-Regular.ttf") format("truetype"); /* Corrected format and semicolon */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

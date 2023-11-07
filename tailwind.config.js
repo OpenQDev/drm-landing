@@ -7,19 +7,25 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-      },
       screens: {
-        xs: "480px", // for example, to add a 480px breakpoint
+        xs: "400px", // for example, to add a 480px breakpoint
+        xxs: "300px", // for example, to add a 480px breakpoint
       },
       width: {
         "1/7": "14.2857143%",
         "1/8": "12.5%",
         "1/9": "11.1111111%",
         "1/10": "10%",
+      },
+      fontFamily: {
+        custom: ["Gilroy", "sans-serif"], // Use your font name here
+      },
+      fontSize: {
+        "5.5xl": "3.2rem", // Custom font size between 5xl and 6xl
+      },
+      colors: {
+        "title-color": "#1D1E20", // Custom color defined
+        "bg-primary-color": "#FBFBFB",
       },
     },
   },

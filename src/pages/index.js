@@ -12,33 +12,12 @@ import Faq from "../components/Sales/drm/faq";
 
 const DRM = () => {
   return (
-    <main className="explore">
+    <main className="bg-bg-primary-color explore">
       <Nav />
-      <div>
+      <div className="bg-bg-primary-color pb-96">
         <DevRelHero />
-        {/*  <DevRelCore />
-        <DevRelProblems />
-        <ProductIntro />
-        <StepOne />
-        <StepTwo />
-        <StepThree />
-        <Cta />
-        <Faq /> */}
+        {/* <DevRelCore /> */}
       </div>
-      {/*  <div className='sticky top-0 z-50'>
-        <Subnav />
-      </div>
-      <div>
-        <DevRelHero />
-        <DevRelCore />
-        <DevRelProblems />
-        <ProductIntro />
-        <StepOne />
-        <StepTwo />
-        <StepThree />
-        <Cta />
-        <Faq />
-      </div> */}
     </main>
   );
 };
