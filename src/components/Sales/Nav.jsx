@@ -11,7 +11,7 @@ const Subnav = () => {
         className={`flex flex-row justify-between md:justify-start items-center py-4`}
       >
         <div className="flex flex-row items-center">
-          <div className="w-1/3 xs:w-1/6 sm:w-1/8 md:w-1/6 lg:w-1/10">
+          <div className="w-1/3 xs:w-1/4 sm:w-1/8 md:w-1/6 lg:w-1/10">
             <Image
               src="/logo.png"
               alt="OpenQ"
