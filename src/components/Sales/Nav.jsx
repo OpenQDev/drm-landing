@@ -8,7 +8,7 @@ const Subnav = () => {
   return (
     <div className="px-4 md:px-16 lg:px-52 pt-2">
       <div
-        className={`flex flex-row justify-between md:justify-start sm:items-center  py-4`}
+        className={`flex flex-row justify-between md:justify-start items-center py-4`}
       >
         <div className="flex flex-row items-center">
           <div className="w-1/3 xs:w-1/6 sm:w-1/8 md:w-1/6 lg:w-1/10">
@@ -56,7 +56,7 @@ const Subnav = () => {
             Join waitlist
           </button>
         </div>
-        <div className="md:hidden self-end">
+        <div className="md:hidden self-end mb-2">
           <button onClick={() => setIsOpen(!isOpen)}>
             {isOpen ? (
               <svg
