@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const DevRelCore = () => {
   return (
-    <div className="flex flex-col justify-center items-center text-center pt-20">
+    <div className="flex flex-col justify-center items-center text-center pt-0 scale-2 lg:pt-20">
       <div className="relative container mx-auto px-4 pb-64 pt-10">
         <div className="flex justify-center items-center border border-gray-300 rounded-lg shadow-custom my-4">
           <Image
