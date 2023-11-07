@@ -26,6 +26,7 @@ module.exports = {
       colors: {
         "title-color": "#1D1E20", // Custom color defined
         "bg-primary-color": "#FBFBFB",
+        "q-purple": "#322EE9",
       },
     },
   },

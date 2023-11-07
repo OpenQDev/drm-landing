@@ -17,6 +17,9 @@ const DRM = () => {
       <div className="bg-bg-primary-color pb-96">
         <DevRelHero />
         <DevRelCore />
+        <div className="">
+          <DevRelProblems />
+        </div>
       </div>
     </main>
   );

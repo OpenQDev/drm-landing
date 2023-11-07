@@ -3,26 +3,27 @@ import Image from "next/image";
 
 const DevRelCore = () => {
   return (
-    <div className="flex flex-col justify-center items-center text-center pt-0 scale-2 lg:pt-20">
-      <div className="relative container mx-auto px-4 pb-64 pt-10">
-        <div className="flex justify-center items-center border border-gray-300 rounded-lg shadow-custom my-4">
+    <div className="flex flex-col justify-center items-center  lg:text-center lg:px-20 lg:pt-36 xl:pt-36 2xl:pt-10 px-8">
+      <div className="relative containermx-auto lg:px-4 pb-16 pt-10">
+        <div className="flex justify-center items-center border border-gray-300 rounded-sm md:rounded-lg shadow-custom my-4 ">
           <Image
-            className="rounded-lg"
+            className="rounded-sm md:rounded-lg"
             src="/landingpage/drm/devrel/devrel-landingpage-image-2.png"
             alt="Centered Image"
-            width={1707}
-            height={1024}
+            width={1194}
+            height={716}
             style={{
               boxShadow: "20px 25px 50px 55px rgba(36, 0, 255, 0.08)",
             }}
           />
         </div>
-        <div
-          className="hidden lg:block absolute top-1/2 right-0 border border-gray-300 rounded-lg opacity-80"
+
+        {/*  <div
+          className="absolute md:top-2/3 top-40 right-0 border border-gray-300 rounded-sm md:rounded-lg opacity-80"
           style={{ transform: "translateX(30%) translateY(-25%)" }}
         >
           <Image
-            className="rounded-lg"
+            className="hidden xl:block rounded-sm md:rounded-lg"
             src="/landingpage/drm/devrel/devrel-landingpage-image-1.png"
             alt="Right Float Image"
             width={853}
@@ -30,17 +31,17 @@ const DevRelCore = () => {
           />
         </div>
         <div
-          className="hidden lg:block absolute top-1/2 right-0 rounded-lg"
+          className="absolute md:top-2/3 top-40 right-0 rounded-sm md:rounded-lg"
           style={{ transform: "translateX(30%) translateY(-25%)" }}
         >
           <Image
-            className="rounded-lg"
+            className="hidden xl:block rounded-sm md:rounded-lg"
             src="/landingpage/drm/devrel/devrel-landingpage-image-1-2.png"
             alt="Right Float Image"
             width={853}
             height={512}
           />
-        </div>
+        </div> */}
       </div>
     </div>
   );
