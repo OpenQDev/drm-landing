@@ -3,7 +3,8 @@ import Nav from "../components/Sales/Nav";
 import DevRelHero from "../components/Sales/drm/devrel-hero";
 import DevRelCore from "../components/Sales/drm/devrel-core";
 import DevRelProblems from "../components/Sales/drm/devrel-problems";
-import ProductIntro from "../components/Sales/drm/product-intro";
+import TextImageSection from "../components/sales/drm/text-image-section";
+import ProductShowcase from "../components/Sales/drm/ProductShowcase/product-showcase";
 import StepOne from "../components/Sales/drm/step-one";
 import StepTwo from "../components/Sales/drm/step-two";
 import StepThree from "../components/Sales/drm/step-three";
@@ -19,6 +20,7 @@ const DRM = () => {
         <DevRelCore />
         <div className="">
           <DevRelProblems />
+          <ProductShowcase />
         </div>
       </div>
     </main>

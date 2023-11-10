@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-const DevRelProblems = () => {
+const TextImageSection = () => {
   return (
     // Add px-4 as default padding, which increases to px-8 on medium screens and px-16 on large screens
     <div className="flex flex-col lg:flex-row lg:space-x-32 justify-center items-center pt-28 lg:pt-38 mx-auto max-w-[1280px] lg:px-7 md:px-10 px-12">
@@ -35,4 +35,4 @@ const DevRelProblems = () => {
   );
 };
 
-export default DevRelProblems;
+export default TextImageSection;
