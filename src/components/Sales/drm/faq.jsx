@@ -3,8 +3,8 @@ import FaqQuestion from "./faq-questions";
 
 const Faq = () => {
   return (
-    <div className="">
-      <div className="flex flex-col justify-center items-center text-center pt-32">
+    <div className="top-content-padding">
+      <div className="flex flex-col justify-center items-center text-center">
         <div className="text-black text-4xl font-extrabold font-custom pt-3">
           Frequently
         </div>

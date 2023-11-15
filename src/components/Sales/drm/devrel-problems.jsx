@@ -4,7 +4,7 @@ import Image from "next/image";
 const DevRelProblems = () => {
   return (
     // Add px-4 as default padding, which increases to px-8 on medium screens and px-16 on large screens
-    <div className="flex flex-col lg:flex-row lg:space-x-32 justify-center items-center pt-28 lg:pt-38 mx-auto max-w-[1280px] lg:px-7 md:px-10 px-12">
+    <div className="flex flex-col lg:flex-row lg:space-x-32 justify-center items-center top-content-padding mx-auto max-w-[1280px] lg:px-7 md:px-10 px-12">
       <div className="flex-1 flex flex-col text-left mb-8 lg:mb-16">
         <div className="font-bold text-q-purple text-md">THE PROBLEM</div>
         <div className="text-title-color font-custom text-3xl lg:text-4xl font-extrabold pt-3">

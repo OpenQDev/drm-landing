@@ -7,9 +7,21 @@ import SideInfo from "./side-info";
 const ProductShowcase = () => {
   return (
     <div>
-      <div className="pt-28 pl-[9rem]">
+      <div className="top-content-padding lg:pl-[9rem]">
+        <div className="px-content-padding-mobile pb-12 sm:block md:hidden">
+          <div className="text-4xl text-title-color font-extrabold font-custom">
+            Enrich your developer accounts with precision and insight
+          </div>
+          <div className="text-gray-700 text-lg pt-5">
+            Dive into actionable insights beyond surface-level metrics. OpenQ
+            clarifies the impact of every developer account on your business
+            objectives , empowering you to track, measure and prove ROI
+            --transforming how you value investments from open source
+            contributions to event engagements.
+          </div>
+        </div>
         <div className="flex flex-col justify-right">
-          <div className="flex flex-row items-center space-x-5 border rounded-tl-md border-gray-400 border-r-white w-full p-4 pl-10">
+          <div className="flex flex-row items-center space-x-5 border lg:rounded-tl-md border-gray-400 border-r-white w-full p-4 px-2 lg:pl-10">
             <div className="bg-q-purple w-min p-1 rounded-full px-3 text-white">
               <span>Enhanced</span>
             </div>
@@ -20,8 +32,8 @@ const ProductShowcase = () => {
               Uses dependencies since 03.04.2020
             </div>
           </div>
-          <div className="flex flex-row space-x-10 border-l border-gray-400 pt-10">
-            <div className="flex flex-col pl-10">
+          <div className="flex flex-row space-x-5 lg:space-x-10 border-l border-gray-400 pt-10">
+            <div className="flex flex-col px-content-padding-mobile lg:pl-10">
               <Card />
               <div className="pl-7">
                 <div className="flex items-center border-l border-gray-400 pt-10"></div>
@@ -41,11 +53,11 @@ const ProductShowcase = () => {
                 subTextIcon=""
               />
             </div>
-            <div>
-              <div className="text-4xl text-title-color font-extrabold w-2/3 font-custom">
+            <div className="hidden md:block">
+              <div className="text-2xl lg:text-4xl text-title-color font-extrabold lg:w-2/3 font-custom">
                 Enrich your developer accounts with precision and insight
               </div>
-              <div className="text-gray-700 text-lg pt-5 w-2/3">
+              <div className="text-gray-700 text-md lg:text-lg pt-5 lg:w-2/3">
                 Dive into actionable insights beyond surface-level metrics.
                 OpenQ clarifies the impact of every developer account on your
                 business objectives , empowering you to track, measure and prove
@@ -56,9 +68,9 @@ const ProductShowcase = () => {
           </div>
         </div>
       </div>
-      <div className="pl-[9rem] bg-[#EBFDF1]">
+      <div className="bg-[#EBFDF1] px-content-padding-mobile lg:pl-[9rem]">
         <div className="flex flex-col justify-right">
-          <div className="flex flex-row items-center space-x-5 border-l border-b rounded-bl-md border-gray-400  w-full pl-10">
+          <div className="flex flex-row items-center space-x-5 lg:border-l border-b rounded-bl-md border-gray-400 w-full lg:pl-10">
             <div className="flex flex-col">
               <SideInfo
                 mainText={
@@ -80,7 +92,7 @@ const ProductShowcase = () => {
                 subText={"Forward feedback to product team"}
               />
             </div>
-            <div className="pl-5">
+            <div className="hidden md:block pl-5">
               <div className="text-4xl text-title-color font-extrabold w-2/3 font-custom">
                 Connecting the most important events together.
               </div>

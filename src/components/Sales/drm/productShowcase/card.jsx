@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Card = () => {
   return (
-    <div className="flex flex-col w-[40rem]">
+    <div className="flex flex-col w-full md:w-[25rem] lg:w-[40rem]">
       <div className="border-l font-bold border-t border-r rounded-tl-md rounded-tr-md p-2 border-gray-400 bg-blue-500 bg-opacity-5 pl-5">
         Developer profile
       </div>

@@ -3,13 +3,13 @@ import Image from "next/image";
 
 const FooterBanner = () => {
   return (
-    <div className="pt-32 px-[13rem]">
+    <div className="top-content-padding lg:px-[13rem]">
       <div className="flex flex-row bg-q-purple pl-24 pt-12 rounded-lg">
-        <div className="flex flex-col w-1/2 justify-center space-y-4 pb-12">
+        <div className="flex flex-col lg:w-1/2 justify-center space-y-4 pb-12">
           <div className="font-bold text-2xl text-white text-left font-custom">
             Level Up
           </div>
-          <div className="text-white text-left w-2/3">
+          <div className="text-white text-left lg:w-2/3">
             Sign up to our waitlist, we onboard new companies every week. Become
             a design partner and start shaping the future of our product.
           </div>
@@ -22,7 +22,7 @@ const FooterBanner = () => {
             </div>
           </div>
         </div>
-        <div className="w-1/2">
+        <div className="lg:w-1/2">
           <Image
             className="rounded-md"
             src="/landingpage/drm/devrel/FooterBannerImage.png"

@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const DeveloperDynamics = () => {
   return (
-    <div className="pt-28 px-[10rem]">
+    <div className="top-content-padding px-[10rem]">
       <div className="flex flex-row space-x-5">
         <div className="flex flex-col space-y-2 items-center">
           <div className="text-2xl font-bold text-gray-800">{"</>"}</div>

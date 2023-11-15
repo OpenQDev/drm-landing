@@ -4,11 +4,22 @@ import LeadDiscoveryResult from "./productShowcase/lead-discovery-result";
 
 const LeadDiscovery = () => {
   return (
-    <div className="bg-[#EBFDF1] pt-28">
-      <div className="flex flex-row pl-[9rem] justify-between space-x-[15rem] items-center pb-28">
+    <div className="bg-[#EBFDF1] top-content-padding">
+      <div className="lg:hidden px-content-padding-mobile block pb-12">
+        <div className="text-4xl text-title-color font-extrabold font-custom">
+          Beyond Data Enrichment: OpenQ's AI-Driven Lead Discovery
+        </div>
+        <div className="text-gray-700 text-lg pt-5 ">
+          Utilize OpenQ to enhance your CRM with robust lead discovery. Our AI
+          uncovers not just engaged community members and rekindling
+          opportunities, but also previously untapped developers profiles that
+          align with your offerings—expanding your reach to the ideal audience.{" "}
+        </div>
+      </div>
+      <div className="lg:flex lg:flex-row bottom-content-padding px-content-padding-mobile lg:pl-[9rem] lg:justify-between lg:space-x-[15rem] items-center">
         {/*   Card start */}
         <div className="flex flex-col">
-          <div className="flex flex-row justify-between items-center px-5 py-2 w-[30rem] border rounded-tl-md rounded-tr-md border-gray-400 bg-gray-100">
+          <div className="flex flex-row justify-between items-center px-5 py-2 w-full lg:w-[30rem] border rounded-tl-md rounded-tr-md border-gray-400 bg-gray-100">
             <div className="font-semibold">Lead discovery</div>
             <div className="p-5 bg-gray-300 rounded-full"></div>
           </div>
@@ -62,7 +73,7 @@ const LeadDiscovery = () => {
             </div>
           </div>
         </div>
-        <div className="">
+        <div className="hidden md:block">
           <div className="text-4xl text-title-color font-extrabold w-2/3 font-custom">
             Beyond Data Enrichment: OpenQ's AI-Driven Lead Discovery
           </div>

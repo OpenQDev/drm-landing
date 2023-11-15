@@ -23,20 +23,18 @@ const DRM = () => {
       <div className="bg-bg-primary-color">
         <DevRelHero />
         <DevRelCore />
-        <div className="">
-          <DevRelProblems />
-          <ProductShowcase />
-          <LeadDiscovery />
-          <HowItWorks />
-          <DeveloperDynamics />
-          <Faq />
-          <div className="relative">
-            <div className="absolute top-0 w-full z-10">
-              <FooterBanner />
-            </div>
-            <div className="absolute top-[14rem] w-full z-0">
-              <Footer />
-            </div>
+        <DevRelProblems />
+        {/*   <ProductShowcase />
+        <LeadDiscovery /> */}
+        <HowItWorks />
+        {/*  <DeveloperDynamics /> */}
+        <Faq />
+        <div className="relative">
+          <div className="absolute top-0 w-full z-10">
+            <FooterBanner />
+          </div>
+          <div className="absolute top-[14rem] w-full z-0">
+            <Footer />
           </div>
         </div>
       </div>

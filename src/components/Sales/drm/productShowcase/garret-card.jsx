@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const GarretCard = ({ subContext, bg }) => {
   return (
-    <div className="flex flex-col w-[40rem] bg-white">
+    <div className="flex flex-col w-full lg:w-[40rem] bg-white">
       <div className="border-l border-t border-r rounded-tl-md rounded-tr-md p-2 border-gray-400 bg-blue-500 bg-opacity-5 pl-5 flex flex-row space-x-2">
         <div className="font-bold">Garret Grim</div>
         <div className="text-gray-500">{subContext}</div>

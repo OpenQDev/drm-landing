@@ -9,7 +9,7 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: rgb(var(--background-rgb));
+  background: #fbfbfb;
 }
 
 @font-face {
@@ -18,4 +18,16 @@ body {
   font-weight: normal;
   font-style: normal;
   font-display: swap;
+}
+
+/* Responsive Queries */
+.top-content-padding {
+  @apply pt-32;
+}
+.bottom-content-padding {
+  @apply pb-32;
+}
+
+.px-content-padding-mobile {
+  @apply px-8;
 }

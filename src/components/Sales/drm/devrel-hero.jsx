@@ -2,7 +2,7 @@ import React from "react";
 
 const DevRelHero = () => {
   return (
-    <div className="pt-12 md:pt-28 lg:pt-20">
+    <div className="pt-12 md:pt-top-content-padding lg:pt-20">
       <div className="flex flex-col justify-center items-center text-center">
         <div className=" text-title-color font-custom text-5.5xl leading-none lg:text-8xl text-center font-bold tracking-tighter">
           Elevate <br /> developer relations.{" "}
