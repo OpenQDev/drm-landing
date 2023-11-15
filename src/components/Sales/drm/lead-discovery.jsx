@@ -4,7 +4,7 @@ import LeadDiscoveryResult from "./productShowcase/lead-discovery-result";
 
 const LeadDiscovery = () => {
   return (
-    <div className="bg-green-100 pt-28">
+    <div className="bg-[#EBFDF1] pt-28">
       <div className="flex flex-row pl-[9rem] justify-between space-x-[15rem] items-center pb-28">
         {/*   Card start */}
         <div className="flex flex-col">

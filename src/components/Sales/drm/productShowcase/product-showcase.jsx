@@ -56,7 +56,7 @@ const ProductShowcase = () => {
           </div>
         </div>
       </div>
-      <div className="pl-[9rem] bg-green-100">
+      <div className="pl-[9rem] bg-[#EBFDF1]">
         <div className="flex flex-col justify-right">
           <div className="flex flex-row items-center space-x-5 border-l border-b rounded-bl-md border-gray-400  w-full pl-10">
             <div className="flex flex-col">

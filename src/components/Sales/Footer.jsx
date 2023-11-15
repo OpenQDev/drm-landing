@@ -32,7 +32,7 @@ const Footer = () => {
           </div>
           <div className="flex flex-col">
             <div className="pb-3 font-bold">Made by dev rels for dev rels</div>
-            <div>in Germany, US, Canda, Austria & Spain</div>
+            <div>in Germany, US, Canada, Austria & Spain</div>
           </div>
         </div>
         <div className="px-[10rem]">
