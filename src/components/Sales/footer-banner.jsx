@@ -5,7 +5,7 @@ const FooterBanner = () => {
   return (
     <div className="pt-32 px-[13rem]">
       <div className="flex flex-row bg-q-purple pl-24 pt-12 rounded-lg">
-        <div className="flex flex-col w-1/2 justify-center space-y-4">
+        <div className="flex flex-col w-1/2 justify-center space-y-4 pb-12">
           <div className="font-bold text-2xl text-white text-left font-custom">
             Level Up
           </div>
