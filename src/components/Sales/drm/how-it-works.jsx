@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const HowItWorks = () => {
   return (
-    <div className="flex flex-col justify-center text-center pt-28">
+    <div className="flex flex-col justify-center text-center pt-28 px-16">
       <div className="">
         <div className="text-4xl text-title-color font-extrabold font-custom">
           How it works
@@ -24,18 +24,18 @@ const HowItWorks = () => {
         </div>
         <div className="flex flex-col px-3 items-center justify-center">
           <div>icon</div>
-          <div className="font-bold text-xl">Connect data sources</div>
+          <div className="font-bold text-xl">Data enrichment</div>
           <div className="text-lg">
-            Import data effortlessly from CSVs and connect seamlessly to
-            platforms like GitHub, Discord, and more.
+            Enhance your developer profiles using OpenQ's AI, which aggregates
+            and analyzes data.
           </div>
         </div>
         <div className="flex flex-col px-3 items-center justify-center">
           <div>icon</div>
-          <div className="font-bold text-xl">Connect data sources</div>
+          <div className="font-bold text-xl">Lead discovery</div>
           <div className="text-lg">
-            Import data effortlessly from CSVs and connect seamlessly to
-            platforms like GitHub, Discord, and more.
+            Identify new leads or previously unnoticed developers who are
+            already engaging with your tools.
           </div>
         </div>
       </div>
