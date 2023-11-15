@@ -18,7 +18,7 @@ const DevRelHero = () => {
           </button>
 
           <button className="border rounded-lg p-2 px-4 border-[#A6A6A6] font-medium md:text-xs lg:text-lg">
-            Closed beta sign in
+            Contact sales
           </button>
         </div>
       </div>
