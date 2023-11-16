@@ -4,8 +4,8 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <div className="bg-[#101010] -mt-1">
-      <div className="pt-16 text-white px-content-padding-mobile">
-        <div className="flex flex-col lg:flex-row items-center lg:px-[10rem] lg:space-x-[3rem] pb-8">
+      <div className="pt-16 text-white">
+        <div className="flex flex-col lg:flex-row justify-between items-center px-content-padding lg:space-x-[3rem] pb-8">
           <div className="flex flex-col lg:flex-row lg:space-x-8 justify-between">
             <div className="lg:w-1/3">
               <div className="pb-3">OpenQ Logo</div>
@@ -45,7 +45,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="lg:px-[10rem]">
+        <div className="px-content-padding">
           <div className="flex flex-col space-y-5 lg:space-y-0 lg:flex-row lg:justify-between border-t border-gray-400 pt-8 pb-8">
             <div>© 2023 OpenQ Labs GmbH. All right reserved.</div>
             <div className="flex flex-col space-y-3 lg:space-y-0 lg:flex-row lg:space-x-5">
