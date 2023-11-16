@@ -24,10 +24,10 @@ const DRM = () => {
         <DevRelHero />
         <DevRelCore />
         <DevRelProblems />
-        {/*   <ProductShowcase />
-        <LeadDiscovery /> */}
+        <ProductShowcase />
+        <LeadDiscovery />
         <HowItWorks />
-        {/*  <DeveloperDynamics /> */}
+        <DeveloperDynamics />
         <Faq />
         <FooterBanner />
         <Footer />

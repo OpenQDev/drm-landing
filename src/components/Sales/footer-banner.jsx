@@ -3,9 +3,9 @@ import Image from "next/image";
 
 const FooterBanner = () => {
   return (
-    <div className="top-content-padding relative bg-transparent">
+    <div className="flex top-content-padding relative bg-transparent">
       <div className="absolute top-2/3 bottom-0 left-0 right-0 bg-[#101010] z-0"></div>
-      <div className="relative lg:px-[10rem] z-10">
+      <div className="relative px-content-padding z-10">
         <div className="flex flex-col lg:flex-row bg-q-purple px-content-padding-mobile lg:px-0 lg:pl-24 pt-12 rounded-lg">
           <div className="flex flex-col lg:w-1/2 justify-center space-y-4 pb-12">
             <div className="font-bold text-2xl text-white text-left font-custom">
@@ -16,7 +16,7 @@ const FooterBanner = () => {
               Become a design partner and start shaping the future of our
               product.
             </div>
-            <div className="flex flex-row justify-left items-center space-x-3">
+            <div className="flex flex-col space-y-3 justify-left xs:flex-row xs:space-x-3 xs:space-y-0 xs:items-center">
               <div className="bg-white rounded-lg p-2  px-3 text-q-purple font-semibold">
                 Join waitlist
               </div>

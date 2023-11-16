@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <div className="bg-[#101010]">
+    <div className="bg-[#101010] -mt-1">
       <div className="pt-16 text-white px-content-padding-mobile">
         <div className="flex flex-col lg:flex-row items-center lg:px-[10rem] lg:space-x-[3rem] pb-8">
           <div className="flex flex-col lg:flex-row lg:space-x-8 justify-between">
@@ -14,7 +14,7 @@ const Footer = () => {
                 and customer data.
               </div>
             </div>
-            <div className="flex flex-col lg:flex-row pt-5 md:pt-0 lg:space-x-10">
+            <div className="flex flex-col md:flex-row pt-5 md:pt-0 lg:space-x-10">
               <div className="flex flex-col pb-5 lg:pb-0">
                 <div className="font-bold sm:text-sm md:text-md lg:text-md xl:text-md 2xl:textl-lg">
                   Help me

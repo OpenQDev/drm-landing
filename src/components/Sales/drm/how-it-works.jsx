@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const HowItWorks = () => {
   return (
-    <div className="flex flex-col justify-center text-center top-content-padding px-content-padding-mobile">
+    <div className="flex flex-col justify-center text-center top-content-padding px-content-padding">
       <div className="">
         <div className="text-4xl text-title-color font-extrabold font-custom">
           How it works
