@@ -29,14 +29,8 @@ const DRM = () => {
         <HowItWorks />
         {/*  <DeveloperDynamics /> */}
         <Faq />
-        <div className="relative">
-          <div className="absolute top-0 w-full z-10">
-            <FooterBanner />
-          </div>
-          <div className="absolute top-[14rem] w-full z-0">
-            <Footer />
-          </div>
-        </div>
+        <FooterBanner />
+        <Footer />
       </div>
     </main>
   );

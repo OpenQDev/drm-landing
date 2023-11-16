@@ -31,3 +31,22 @@ body {
 .px-content-padding-mobile {
   @apply px-8;
 }
+
+.top-position-footer-banner {
+  @apply top-[20rem] xs:top-[30rem] sm:top-[30rem] md:top-[35rem] lg:top-[14rem] xl:top-[15rem] 2xl:top-[20rem];
+}
+
+.half-bg::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 50%; /* Covering only half the height */
+  background-color: #101010;
+  z-index: -1; /* Ensuring it's behind the content */
+}
+.half-bg {
+  position: relative; /* Needed for absolute positioning of pseudo-element */
+  overflow: hidden; /* Optional, ensures the background doesn't exceed the container */
+}

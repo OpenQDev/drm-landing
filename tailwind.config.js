@@ -28,6 +28,16 @@ module.exports = {
         "bg-primary-color": "#FBFBFB",
         "q-purple": "#322EE9",
       },
+      variants: {
+        extend: {
+          backgroundColor: ["before"],
+          content: ["before"],
+          position: ["before"],
+          inset: ["before"],
+          width: ["before"],
+          height: ["before"],
+        },
+      },
     },
   },
   plugins: [],
