@@ -122,6 +122,19 @@
   dependencies:
     tslib "^2.4.0"
 
+"@typeform/embed-react@^3.8.0":
+  version "3.8.0"
+  resolved "https://registry.yarnpkg.com/@typeform/embed-react/-/embed-react-3.8.0.tgz#1664cb394796afaa5173d7fd4a5defe45b43f6bf"
+  integrity sha512-1Ew+Je+MO6oiefiJlVK6usxrgnIHq0mO4wHkgnHpJRxiPs31D0BWsT27ZhAP+7UPQ6jm3XnSze+COT+1OSJHzw==
+  dependencies:
+    "@typeform/embed" "4.3.2"
+    fast-deep-equal "^3.1.3"
+
+"@typeform/embed@4.3.2":
+  version "4.3.2"
+  resolved "https://registry.yarnpkg.com/@typeform/embed/-/embed-4.3.2.tgz#b202e6b381c6d1629510c33ccb45ff38d7153f70"
+  integrity sha512-uUlCcUU0MVmyHcoIfJpn2LXh/53tPCoHU6OGBHm0dkH7oKhbHDnHknnCdHZsO9M6MvzGZnMRItx/qz5l5z5hRw==
+
 any-promise@^1.0.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/any-promise/-/any-promise-1.3.0.tgz#abc6afeedcea52e809cdc0376aed3ce39635d17f"
@@ -258,6 +271,11 @@ escalade@^3.1.1:
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/escalade/-/escalade-3.1.1.tgz#d8cfdc7000965c5a0174b4a82eaa5c0552742e40"
   integrity sha512-k0er2gUkLf8O0zKJiAhmkTnJlTvINGv7ygDNPbeIsX/TJjGJZHuh9B2UxbsaEkmlEo9MfhrSzmhIlhRlI2GXnw==
+
+fast-deep-equal@^3.1.3:
+  version "3.1.3"
+  resolved "https://registry.yarnpkg.com/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz#3a7d56b559d6cbc3eb512325244e619a65c6c525"
+  integrity sha512-f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q==
 
 fast-glob@^3.3.0:
   version "3.3.2"

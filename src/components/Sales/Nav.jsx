@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import Typeform from "../Sales/drm/elements/typeform";
 
 const Subnav = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -46,12 +47,20 @@ const Subnav = () => {
           </div>
         </div>
         <div className="flex flex-row hidden md:flex space-x-4">
-          <button className="whitespace-nowrap border rounded-lg p-2 px-4 border-[#A6A6A6] font-medium md:text-xs lg:text-lg">
-            Closed beta sign in
-          </button>
-          <button className="whitespace-nowrap bg-[#322EE9] p-2 px-4 text-white border rounded-lg font-medium md:text-xs lg:text-lg">
-            Join waitlist
-          </button>
+          <div className="whitespace-nowrap border rounded-lg p-2 px-4 border-[#A6A6A6] font-medium md:text-xs lg:text-lg">
+            <Link
+              target="_blank"
+              href="https://drm.openq.dev/"
+              className="text-gray-900 text-xs lg:text-lg font-medium"
+            >
+              Closed beta sign in
+            </Link>
+          </div>
+          <Typeform>
+            <div className="whitespace-nowrap bg-[#322EE9] p-2 px-4 text-white border rounded-lg font-medium md:text-xs lg:text-lg">
+              Join waitlist
+            </div>
+          </Typeform>
         </div>
         <div className="md:hidden self-end mb-1">
           <button onClick={() => setIsOpen(!isOpen)}>
@@ -101,12 +110,20 @@ const Subnav = () => {
             Community
           </a>
           <div className="flex flex-col pt-5 space-y-2">
-            <button className="whitespace-nowrap border rounded-lg p-2 px-4 border-[#A6A6A6] font-medium text-xs">
-              Closed beta sign in
-            </button>
-            <button className="whitespace-nowrap bg-[#322EE9] p-2 px-4 text-white border rounded-lg font-medium text-xs">
-              Join waitlist
-            </button>
+            <div className="whitespace-nowrap border rounded-lg p-2 px-4 border-[#A6A6A6] font-medium text-xs">
+              <Link
+                target="_blank"
+                href="https://drm.openq.dev/"
+                className="text-gray-900 text-xs lg:text-lg font-medium"
+              >
+                Closed beta sign in
+              </Link>
+            </div>
+            <Typeform>
+              <div className="whitespace-nowrap bg-[#322EE9] p-2 px-4 text-white border rounded-lg font-medium text-xs">
+                Join waitlist
+              </div>
+            </Typeform>
           </div>
           <div className="border-b border-gray-300 pt-5"></div>
         </div>

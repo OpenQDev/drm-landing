@@ -1,5 +1,7 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
+import Typeform from "../Sales/drm/elements/typeform";
 
 const FooterBanner = () => {
   return (
@@ -17,11 +19,19 @@ const FooterBanner = () => {
               product.
             </div>
             <div className="flex flex-col space-y-3 justify-left xs:flex-row xs:space-x-3 xs:space-y-0 xs:items-center">
-              <div className="bg-white rounded-lg p-2  px-3 text-q-purple font-semibold">
-                Join waitlist
-              </div>
+              <Typeform>
+                <div className="bg-white rounded-lg p-2  px-3 text-q-purple font-semibold">
+                  Join waitlist
+                </div>
+              </Typeform>
               <div className="text-white border border-white rounded-lg p-2 px-3 font-semibold">
-                Book a demo
+                <Link
+                  target="_blank"
+                  href="https://drm.openq.dev/"
+                  className="text-gray-900 text-xs lg:text-lg font-medium text-white"
+                >
+                  Closed beta sign in
+                </Link>
               </div>
             </div>
           </div>
