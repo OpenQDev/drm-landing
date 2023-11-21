@@ -99,8 +99,21 @@ const LeadDiscovery = () => {
                   <div className="flex w-fit bg-q-purple p-1 rounded-tl-md rounded-bl-md font-semibold text-white px-2">
                     add
                   </div>
-                  <div className="flex w-fit bg-q-purple p-1 rounded-tr-md rounded-br-md font-semibold text-white px-2">
-                    .
+                  <div className="flex w-fit items-center bg-q-purple p-1 rounded-tr-md rounded-br-md font-semibold text-white px-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth="1.5"
+                      stroke="currentColor"
+                      className="w-4 h-4"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                      />
+                    </svg>
                   </div>
                 </div>
               </div>
