@@ -16,7 +16,7 @@ const Subnav = () => {
             alt="OpenQ"
             width={125} // Original width of the image
             height={75} // Original height of the image
-            layout="responsive" // This will maintain the aspect ratio
+            responsive // This will maintain the aspect ratio
           />
         </div>
 

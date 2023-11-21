@@ -3,12 +3,12 @@ import Image from "next/image";
 import Card from "./card";
 import GarretCard from "./garret-card";
 import SideInfo from "./side-info";
-import topSection from "./topSection";
+import topSection from "./top-section";
 
 const BottomSection = () => {
   return (
     <div className="flex flex-row items-center space-x-5 border-l border-r border-b rounded-bl-md border-gray-400 lg:pl-10">
-      <div className="flex flex-col px-10">
+      <div className="flex flex-col px-8 md:px-10">
         <SideInfo
           mainText={
             "Created an account for our commercial product, started on a paid tier"

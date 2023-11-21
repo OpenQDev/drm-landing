@@ -57,7 +57,7 @@ const LeadDiscovery = () => {
                       alt="Martin Mellow"
                       width={40} // Adjusted width
                       height={40} // Adjusted height
-                      layout="fixed"
+                      fixed
                     />
 
                     <div className="font-semibold">Martin Mello</div>

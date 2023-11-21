@@ -19,7 +19,7 @@ const HowItWorks = () => {
             alt="Martin Mellow"
             width={30} // Adjusted width
             height={30} // Adjusted height
-            layout="fixed"
+            fixed
           />
           <div className="font-bold text-xl">Connect data sources</div>
           <div className="text-lg">
@@ -56,7 +56,7 @@ const HowItWorks = () => {
             alt="Martin Mellow"
             width={40} // Adjusted width
             height={40} // Adjusted height
-            layout="fixed"
+            fixed
           />
           <div className="font-bold text-xl">Lead discovery</div>
           <div className="text-lg">

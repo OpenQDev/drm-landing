@@ -53,3 +53,15 @@ body {
 .top-position-footer-banner {
   @apply top-[20rem] xs:top-[30rem] sm:top-[30rem] md:top-[35rem] lg:top-[14rem] xl:top-[15rem] 2xl:top-[20rem];
 }
+
+.planning-tracking-conversation-line {
+  position: absolute;
+  top: 15%;
+  bottom: 0;
+  left: 35px;
+  width: 0;
+  border-width: 2px !important;
+  transition: transform 0.5s ease;
+  transform: scale(0);
+  transform-origin: top;
+}

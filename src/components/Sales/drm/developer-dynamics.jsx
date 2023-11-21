@@ -36,7 +36,7 @@ const DeveloperDynamics = () => {
                     alt="Table"
                     width={1570}
                     height={856}
-                    layout="responsive"
+                    responsive
                   />
                   {/* <StepTwoContent /> */}
                 </div>
@@ -59,7 +59,7 @@ const DeveloperDynamics = () => {
                     alt="Table"
                     width={740}
                     height={563}
-                    layout="responsive"
+                    responsive
                   />
                 </div>
               </div>
@@ -76,7 +76,7 @@ const DeveloperDynamics = () => {
                       alt="Table"
                       width={471}
                       height={344}
-                      layout="responsive"
+                      responsive
                     />
                   </div>
                 </div>
@@ -87,7 +87,7 @@ const DeveloperDynamics = () => {
                     alt="Table"
                     width={563}
                     height={53}
-                    layout="responsive"
+                    responsive
                   />
                 </div>
               </div>
