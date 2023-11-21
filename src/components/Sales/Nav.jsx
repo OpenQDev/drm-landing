@@ -6,19 +6,16 @@ const Subnav = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="px-5 md:px-16 lg:px-52 pt-2">
-      <div
-        className={`flex flex-row justify-between md:justify-start items-center py-4`}
-      >
+    <div className="pt-10 px-content-padding">
+      <div className={`flex flex-row justify-between items-center w-full py-4`}>
         <div className="flex flex-row items-center">
-          <div className="w-1/3 xs:w-1/4 sm:w-1/8 md:w-1/6 lg:w-1/10">
-            {/*  <Image
+          <div className="">
+            <Image
               src="/logo.png"
               alt="OpenQ"
               width={125} // Original width of the image
               height={75} // Original height of the image
-            /> */}
-            Logo
+            />
           </div>
 
           <div className="hidden md:block pl-10 pb-1">
@@ -65,7 +62,7 @@ const Subnav = () => {
                 viewBox="0 0 24 24"
                 strokeWidth="1.5"
                 stroke="currentColor"
-                className="w-5 h-5"
+                className="w-6 h-6"
               >
                 <path
                   strokeLinecap="round"
@@ -80,7 +77,7 @@ const Subnav = () => {
                 viewBox="0 0 24 24"
                 strokeWidth="1.5"
                 stroke="currentColor"
-                className="w-5 h-5"
+                className="w-6 h-6"
               >
                 <path
                   strokeLinecap="round"
