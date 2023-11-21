@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -49,7 +50,11 @@ const Footer = () => {
           <div className="flex flex-col space-y-5 lg:space-y-0 lg:flex-row lg:justify-between border-t border-gray-400 pt-8 pb-8">
             <div>© 2023 OpenQ Labs GmbH. All right reserved.</div>
             <div className="flex flex-col space-y-3 lg:space-y-0 lg:flex-row lg:space-x-5">
-              <div>Imprint</div>
+              <div>
+                <Link href="/imprint">
+                  <span>Imprint</span>
+                </Link>
+              </div>
               <div>Privacy Policies</div>
               <div>Terms of Use</div>
             </div>

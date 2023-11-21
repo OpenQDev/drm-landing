@@ -7,20 +7,22 @@ const Subnav = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="pt-10 px-content-padding">
+    <div className="pt-3 px-content-padding">
       <div className={`flex flex-row justify-between items-center w-full py-4`}>
         <div className="flex flex-row items-center">
-          <div className="">
-            <Image
-              src="/logo.png"
-              alt="OpenQ"
-              width={125} // Original width of the image
-              height={75} // Original height of the image
-            />
-          </div>
+          <Link href="/">
+            <div>
+              <Image
+                src="/logo.png"
+                alt="OpenQ"
+                width={125} // Original width of the image
+                height={75} // Original height of the image
+              />
+            </div>
+          </Link>
 
           <div className="hidden md:block pl-10 pb-1">
-            <Link
+            {/* <Link
               href="/product"
               className="text-gray-900 px-3 text-xs lg:text-lg font-medium items-center space-x-2"
             >
@@ -43,7 +45,7 @@ const Subnav = () => {
               className="text-gray-900 px-3 text-xs lg:text-lg font-medium"
             >
               Community
-            </Link>
+            </Link> */}
           </div>
         </div>
         <div className="flex flex-row hidden md:flex space-x-4">
@@ -100,7 +102,7 @@ const Subnav = () => {
       </div>
       {isOpen && (
         <div className="flex flex-col text-left">
-          <a href="#" className="text-gray-900  text-sm font-normal pb-5">
+          {/*  <a href="#" className="text-gray-900  text-sm font-normal pb-5">
             Product
           </a>
           <a href="#" className="text-gray-900  text-sm font-normal pb-5">
@@ -108,7 +110,7 @@ const Subnav = () => {
           </a>
           <a href="#" className="text-gray-900  text-sm font-normal">
             Community
-          </a>
+          </a> */}
           <div className="flex flex-col pt-5 space-y-2">
             <div className="whitespace-nowrap border rounded-lg p-2 px-4 border-[#A6A6A6] font-medium text-xs">
               <Link
