@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import LeadDiscoveryResult from "./productShowcase/lead-discovery-result";
+import LeadDiscoveryResult from "./product-showcase/lead-discovery-result";
 
 const LeadDiscovery = () => {
   return (

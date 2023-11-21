@@ -3,7 +3,7 @@ import Nav from "../components/Sales/nav";
 import DevRelHero from "../components/Sales/drm/devrel-hero";
 import DevRelCore from "../components/Sales/drm/devrel-core";
 import DevRelProblems from "../components/Sales/drm/devrel-problems";
-import ProductShowcase from "../components/Sales/drm/ProductShowcase/product-showcase";
+import ProductShowcase from "../components/Sales/drm/product-showcase/product-showcase";
 import Faq from "../components/Sales/drm/faq";
 import LeadDiscovery from "@/components/Sales/drm/lead-discovery";
 import HowItWorks from "@/components/Sales/drm/how-it-works";
