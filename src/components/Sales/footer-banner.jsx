@@ -32,7 +32,6 @@ const FooterBanner = () => {
               alt="Table"
               width={1570}
               height={856}
-              responsive
             />
           </div>
         </div>

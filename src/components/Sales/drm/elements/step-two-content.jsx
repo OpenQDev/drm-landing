@@ -153,51 +153,7 @@ const StepTwoContent = () => {
         <div className="">
           <div className="">
             <div className="flex flex-row justify-between items-center">
-              <div className="flex flex-col">
-                {/* <div className='flex flex-row items-center justify-between px-3 w-full bg-[#EEEEEE] border-t border-l border-r border-b rounded-tl-sm p-2 border-gray-300'>
-                  <div className='text-gray-800 text-xs'>Name</div>
-                  <div>
-                    <svg
-                      xmlns='http://www.w3.org/2000/svg'
-                      fill='none'
-                      viewBox='0 0 24 24'
-                      strokeWidth='1.5'
-                      stroke='#797979'
-                      className='w-4 h-4'
-                    >
-                      <path strokeLinecap='round' strokeLinejoin='round' d='M19.5 8.25l-7.5 7.5-7.5-7.5' />
-                    </svg>
-                  </div>
-                </div> */}
-                {/* <div className='flex flex-row border-b border-r border-l border-gray-500 space-x-5 items-center p-3'>
-                  <div className='text-gray-500 text-xs'>1</div>
-                  <div className='text-gray-500 text-xs'>rickkdev</div>
-                  <div></div>
-                </div> */}
-                {/*  {tableData.name.map((col, index) => (
-                  <div
-                    className='flex border-b border-r border-l border-gray-300 space-x-5 items-center p-3'
-                    key={index}
-                  >
-                    <div className='text-gray-500 text-xs'>{col.slice(0, 7)}</div>
-                  </div>
-                ))} */}
-
-                {/* <div className='flex border-b border-l border-r border-gray-300 space-x-5 items-center p-1 '>
-                  <div className={`text-white text-xs p-1 rounded-lg px-3`} style={{ whiteSpace: 'nowrap' }}>
-                    <svg
-                      xmlns='http://www.w3.org/2000/svg'
-                      fill='none'
-                      viewBox='0 0 24 24'
-                      strokeWidth='1.5'
-                      stroke='#8D8D8D'
-                      className='w-4 h-4 mb-1 -ml-2'
-                    >
-                      <path strokeLinecap='round' strokeLinejoin='round' d='M12 4.5v15m7.5-7.5h-15' />
-                    </svg>
-                  </div>
-                </div> */}
-              </div>
+              <div className="flex flex-col"></div>
               <TableRow name={"Name"} cols={tableData.name} type={"name"} />
               <TableRow
                 name={"Status"}

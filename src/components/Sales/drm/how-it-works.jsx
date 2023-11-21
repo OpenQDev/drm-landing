@@ -14,13 +14,13 @@ const HowItWorks = () => {
       <div className="flex flex-col lg:flex-row justify-between items-first md:items-center lg:px-40 pt-12">
         <div className="flex flex-col pb-10 lg:pb-0 lg:px-3 items-first md:items-center justify-center space-y-3">
           <Image
-            className="rounded-full"
+            className="rounded-full" // Tailwind class for styling
             src="/landingpage/drm/devrel/icons/plug-solid.png"
             alt="Martin Mellow"
-            width={30} // Adjusted width
-            height={30} // Adjusted height
-            fixed
+            width={30}
+            height={30}
           />
+
           <div className="font-bold text-xl">Connect data sources</div>
           <div className="text-lg">
             Import data effortlessly from CSVs and connect seamlessly to
@@ -56,7 +56,6 @@ const HowItWorks = () => {
             alt="Martin Mellow"
             width={40} // Adjusted width
             height={40} // Adjusted height
-            fixed
           />
           <div className="font-bold text-xl">Lead discovery</div>
           <div className="text-lg">

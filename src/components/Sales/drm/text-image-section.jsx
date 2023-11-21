@@ -28,7 +28,6 @@ const TextImageSection = () => {
           alt="Right Float Image"
           width={1192}
           height={1232}
-          responsive
         />
       </div>
     </div>

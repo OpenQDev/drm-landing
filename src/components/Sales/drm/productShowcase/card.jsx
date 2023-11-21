@@ -16,7 +16,6 @@ const Card = () => {
               alt="Luke"
               width={50} // Adjusted width
               height={50} // Adjusted height
-              fixed
             />
             <div className="flex flex-col">
               <div className="font-semibold">Luke</div>
@@ -57,7 +56,6 @@ const Card = () => {
             alt="Gh history"
             width={1118} // Adjusted width
             height={202} // Adjusted height
-            fixed
           />
         </div>
       </div>

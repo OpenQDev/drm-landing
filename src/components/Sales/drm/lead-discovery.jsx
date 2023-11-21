@@ -57,7 +57,6 @@ const LeadDiscovery = () => {
                       alt="Martin Mellow"
                       width={40} // Adjusted width
                       height={40} // Adjusted height
-                      fixed
                     />
 
                     <div className="font-semibold">Martin Mello</div>
@@ -86,8 +85,8 @@ const LeadDiscovery = () => {
                       className="rounded-full"
                       src="/landingpage/drm/devrel/icons/x-twitter.svg"
                       alt="Twitter Icon"
-                      width="24" // Adjusted width
-                      height="24" // Adjusted height
+                      width="24"
+                      height="24"
                     />
                   </div>
                   <div className="p-1 border border-gray-500 rounded-sm"></div>

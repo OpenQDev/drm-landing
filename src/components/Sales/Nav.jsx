@@ -12,13 +12,13 @@ const Subnav = () => {
       >
         <div className="flex flex-row items-center">
           <div className="w-1/3 xs:w-1/4 sm:w-1/8 md:w-1/6 lg:w-1/10">
-            <Image
+            {/*  <Image
               src="/logo.png"
               alt="OpenQ"
               width={125} // Original width of the image
               height={75} // Original height of the image
-              responsive // This will maintain the aspect ratio
-            />
+            /> */}
+            Logo
           </div>
 
           <div className="hidden md:block pl-10 pb-1">

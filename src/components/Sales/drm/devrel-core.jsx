@@ -12,6 +12,7 @@ const DevRelCore = () => {
             alt="Centered Image"
             width={1280}
             height={768}
+            priority // Adding priority property
             style={{
               boxShadow: "20px 25px 50px 55px rgba(36, 0, 255, 0.08)",
             }}
