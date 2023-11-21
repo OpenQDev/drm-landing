@@ -22,10 +22,15 @@ body {
 
 /* Responsive Queries */
 .top-content-padding {
-  @apply pt-32;
+  @apply pt-12 lg:pt-28 xl:pt-32;
 }
+
+.top-collapse-padding {
+  @apply pt-12 lg:pt-0;
+}
+
 .bottom-content-padding {
-  @apply pb-32;
+  @apply pb-12 lg:pb-28 xl:pb-32;
 }
 
 /* This provides 20rem px */
@@ -39,6 +44,10 @@ body {
 
 .px-content-padding-mobile {
   @apply px-8;
+}
+
+.title-text-size {
+  @apply text-title-color font-custom text-3xl lg:text-4xl font-extrabold;
 }
 
 .top-position-footer-banner {

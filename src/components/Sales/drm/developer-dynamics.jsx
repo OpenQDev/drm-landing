@@ -1,24 +1,27 @@
 import React from "react";
 import Image from "next/image";
+import StepTwoContent from "./elements/step-two-content";
 
 const DeveloperDynamics = () => {
   return (
     <div className="top-content-padding px-content-padding">
-      <div className="flex flex-row space-x-5">
+      <div className="flex flex-row space-x-2 lg:space-x-5">
         <div className="flex flex-col space-y-2 items-center">
-          <div className="text-2xl font-bold text-gray-800">{"</>"}</div>
+          <div className="text-md md:text-lg lg:text:xl xl:text-2xl font-black text-gray-800">
+            {"</>"}
+          </div>
           <div className="border-l border-gray-200 h-full"></div>
         </div>
         <div className="flex flex-col">
           <div className="md:w-2/5 pb-5">
-            <div className="text-4xl text-title-color font-extrabold font-custom">
+            <div className="title-text-size">
               Modeled for developer dynamics
             </div>
             <div className="text-gray-700 text-lg pt-5">
               More than a CRM—OpenQ is an intelligence hub
             </div>
           </div>
-          <div className="flex flex-col pt-5">
+          <div className="flex flex-col pt-3">
             <div className="border rounded-lg border-gray-200">
               <div className="flex flex-col md:flex-row">
                 <div className="md:w-1/3 p-5 text-md">
@@ -35,6 +38,7 @@ const DeveloperDynamics = () => {
                     height={856}
                     layout="responsive"
                   />
+                  {/* <StepTwoContent /> */}
                 </div>
               </div>
             </div>

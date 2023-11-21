@@ -8,7 +8,7 @@ const FooterBanner = () => {
       <div className="relative px-content-padding z-10">
         <div className="flex flex-col lg:flex-row bg-q-purple px-content-padding-mobile lg:px-0 lg:pl-24 pt-12 rounded-lg">
           <div className="flex flex-col lg:w-1/2 justify-center space-y-4 pb-12">
-            <div className="font-bold text-2xl text-white text-left font-custom">
+            <div className="font-custom text-3xl lg:text-4xl font-extrabold text-white text-left ">
               Level Up
             </div>
             <div className="text-white text-left lg:w-2/3">

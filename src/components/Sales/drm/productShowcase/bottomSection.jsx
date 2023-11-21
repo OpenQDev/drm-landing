@@ -30,10 +30,10 @@ const BottomSection = () => {
         />
       </div>
       <div className="hidden xl:block ">
-        <div className="md:text-lg lg:text-xl text-4xl text-title-color font-extrabold lg:w-2/3 font-custom -ml-5">
+        <div className="title-text-size lg:w-2/3  -ml-5">
           Connecting the most important events together
         </div>
-        <div className="md:text-lg lg:text-xl text-4xl text-title-color font-extrabold lg:w-2/3 font-custom pt-5 -ml-5">
+        <div className="title-text-size lg:w-2/3  pt-5 -ml-5">
           Detecting churn and inactivity before its too late.
         </div>
       </div>

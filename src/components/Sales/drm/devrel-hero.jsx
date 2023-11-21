@@ -4,7 +4,7 @@ const DevRelHero = () => {
   return (
     <div className="pt-12 md:pt-top-content-padding lg:pt-20">
       <div className="flex flex-col justify-center items-center text-center">
-        <div className=" text-title-color font-custom text-5.5xl leading-none lg:text-8xl text-center font-bold tracking-tighter">
+        <div className=" text-title-color font-custom leading-none text-6xl lg:text-8xl text-center font-bold tracking-tighter">
           Elevate <br /> developer relations.{" "}
         </div>
 

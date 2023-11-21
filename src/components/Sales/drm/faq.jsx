@@ -5,12 +5,8 @@ const Faq = () => {
   return (
     <div className="top-content-padding">
       <div className="flex flex-col justify-center items-center text-center">
-        <div className="text-black text-4xl font-extrabold font-custom pt-3">
-          Frequently
-        </div>
-        <div className="text-black text-4xl font-extrabold pt-3 pb-12">
-          asked questions
-        </div>
+        <div className="title-text-size">Frequently</div>
+        <div className="title-text-size pt-3 pb-8">asked questions</div>
         <div>
           <FaqQuestion
             question="How can the DRM help improve developer retention?"

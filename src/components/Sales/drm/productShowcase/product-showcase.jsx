@@ -9,8 +9,8 @@ import BottomSection from "./bottomSection";
 const ProductShowcase = () => {
   return (
     <div className="top-content-padding">
-      <div className="pb-12 sm:block xl:hidden px-content-padding">
-        <div className="md:text-lg lg:text-xl text-4xl text-title-color font-extrabold font-custom">
+      <div className="sm:block xl:hidden px-content-padding">
+        <div className="title-text-size">
           Enrich your developer accounts with precision and insight
         </div>
         <div className="text-gray-700 text-lg pt-5">
@@ -21,7 +21,7 @@ const ProductShowcase = () => {
           contributions to event engagements.
         </div>
       </div>
-      <div className="">
+      <div className="top-collapse-padding ">
         <div className="justify-center px-content-padding">
           <div className="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-5 border lg:rounded-t-md border-gray-400 w-full p-4 px-2 lg:pl-10">
             <div className="bg-q-purple w-min p-1 rounded-full px-3 text-white">

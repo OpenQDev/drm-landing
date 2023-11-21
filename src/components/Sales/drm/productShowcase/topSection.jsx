@@ -28,7 +28,7 @@ const TopSection = () => {
         />
       </div>
       <div className="hidden xl:block">
-        <div className="md:text-lg lg:text-xl text-4xl text-title-color font-extrabold lg:w-2/3 font-custom">
+        <div className="title-text-size lg:w-2/3 ">
           Enrich your developer accounts with precision and insight
         </div>
         <div className="text-gray-700 text-md lg:text-lg pt-5 lg:w-2/3">
